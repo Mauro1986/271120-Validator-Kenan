@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ValidatorProgram
+namespace Validatorr
 {
-    static class Validator
+    public class Validator
     {
         public static bool IsNotZero(string value)
         {
@@ -129,7 +129,5 @@ namespace ValidatorProgram
                 return false;
             }
         }
-
-
     }
 }
